@@ -15,7 +15,7 @@ public class Calculator {
 
     // Intentional issue: Duplicate code
     public static String greet(String name) {
-        if (name === null || name.isEmpty()) {
+        if (name == null || name.isEmpty()) {
             return "Hello, Guest!";
         }
         return "Hello, " + name + "!";
