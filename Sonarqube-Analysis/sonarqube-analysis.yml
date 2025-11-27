@@ -12,7 +12,7 @@ jobs:
         continue-on-error: false
         with:
           args: >
-            -Dsonar.projectKey=CI-CD-githubactions
+            -Dsonar.projectKey=CI-CD-JavaApp
             -Dsonar.sources=.
             -Dsonar.exclusions=**/node_modules/**,**/dist/**,**/.git/**
             -Dsonar.verbose=true
