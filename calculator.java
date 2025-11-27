@@ -9,13 +9,13 @@ public class Calculator {
     }
 
     // Intentional issue: Unused function
-    //public static int multiply(int a, int b) {
+    public static int multiply(int a, int b) {
         return a * b;
     }
 
     // Intentional issue: Duplicate code
     public static String greet(String name) {
-        if (name == null || name.isEmpty()) {
+        if (name === null || name.isEmpty()) {
             return "Hello, Guest!";
         }
         return "Hello, " + name + "!";
